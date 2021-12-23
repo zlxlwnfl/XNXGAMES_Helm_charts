@@ -3,7 +3,7 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-23T18:28:53.844701023Z"
+    created: "2021-12-23T18:59:56.1700904Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -15,7 +15,7 @@ entries:
       repository: ""
       version: 7.15.0
     description: A Helm chart for Kubernetes
-    digest: 77e40cf10a740f953a93ed587ec55713b26862236994cf8beae240416bc2a142
+    digest: 783c483d13a0c3d34874f31dc7429d34604dee9626139971d38b503dade341ad
     keywords:
     - efk
     name: charts
@@ -23,4 +23,39 @@ entries:
     urls:
     - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/charts-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-23T18:28:53.832869716Z"
+  keycloak:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 15.1.1
+    created: "2021-12-23T18:59:56.183102539Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    description: Keycloak is a high performance Java-based identity and access management
+      solution. It lets developers add an authentication layer to their applications
+      with minimum effort.
+    digest: 52c4f61380acb55860e768fc07df3ef572efd4a518f2236608e8d9b5cf4714e8
+    home: https://www.keycloak.org
+    icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
+    keywords:
+    - keycloak
+    - access-management
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: keycloak
+    sources:
+    - https://github.com/bitnami/bitnami-docker-keycloak
+    - https://github.com/keycloak/keycloak
+    urls:
+    - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-5.2.7.tgz
+    version: 5.2.7
+generated: "2021-12-23T18:59:56.162713992Z"
