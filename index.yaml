@@ -3,7 +3,7 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-23T19:01:36.097841948Z"
+    created: "2022-01-02T12:35:47.64557915Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -15,7 +15,7 @@ entries:
       repository: ""
       version: 7.15.0
     description: A Helm chart for Kubernetes
-    digest: 0c1fd85b769b843a5429184dfc907267a61aa75f04b3ec45fbf0d1a7d6838a16
+    digest: fb37f9c2c5f34ce4c474678830a977d9b80c428728c6191b298371f6f76741dc
     keywords:
     - efk
     name: charts
@@ -26,7 +26,7 @@ entries:
   istio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-23T19:01:36.106707932Z"
+    created: "2022-01-02T12:35:47.653046642Z"
     dependencies:
     - name: base
       repository: ""
@@ -38,7 +38,7 @@ entries:
       repository: ""
       version: 1.12.1
     description: A Helm chart for Kubernetes
-    digest: 148b53dec1c3f8ea186389df038864f5b74ca8cfcff2f81975a66fdeee4d3bae
+    digest: 8e82072d5bea9051c3961f7dfc8913939a2ba86adbee0facd4cf2299c6b82ecb
     keywords:
     - istio
     name: istio
@@ -51,7 +51,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2021-12-23T19:01:36.123135989Z"
+    created: "2022-01-02T12:35:47.665759298Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -65,7 +65,7 @@ entries:
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
-    digest: f87b65f0b3677c46e69205d9e8f9d1983efcd289de4f09b3f8feb49d84c3a7bb
+    digest: 751396e5a0fc68e03af0968fcd0b160ee9663405e80752a0ba9f52e621a6aebf
     home: https://www.keycloak.org
     icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -81,4 +81,4 @@ entries:
     urls:
     - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-5.2.7.tgz
     version: 5.2.7
-generated: "2021-12-23T19:01:36.088345857Z"
+generated: "2022-01-02T12:35:47.637888855Z"
