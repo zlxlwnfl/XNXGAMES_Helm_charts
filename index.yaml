@@ -3,7 +3,7 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-02T16:52:15.20579067Z"
+    created: "2022-01-02T17:19:26.04749319Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -14,8 +14,11 @@ entries:
     - name: kibana
       repository: ""
       version: 7.15.0
+    - name: elasticsearch-curator
+      repository: ""
+      version: 3.1.0
     description: A Helm chart for Kubernetes
-    digest: 95f939b5fc0383f1e0245172e60c0ff8dd4f4418ffd61ac2ce1e234fa9ff7cf7
+    digest: 5d28044ff6b8476737d935f41b5c2b144a21fc2609c0bfcd31628b0c237ee97f
     keywords:
     - efk
     name: charts
@@ -26,7 +29,7 @@ entries:
   istio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-02T16:52:15.213040858Z"
+    created: "2022-01-02T17:19:26.057199736Z"
     dependencies:
     - name: base
       repository: ""
@@ -38,7 +41,7 @@ entries:
       repository: ""
       version: 1.12.1
     description: A Helm chart for Kubernetes
-    digest: 73dfeed54137082d3096ba03b044fe6c632471a7635b7b37d2a9c6f7465d71a0
+    digest: 6ca5aa156b9c8e65dda8603ed230217c9cc78532521e73d14e9c2a4de927bc89
     keywords:
     - istio
     name: istio
@@ -51,7 +54,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2022-01-02T16:52:15.226593735Z"
+    created: "2022-01-02T17:19:26.074797528Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -65,7 +68,7 @@ entries:
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
-    digest: f5b3dc4083e4139150ff7e2e62176b30b9cd8f9785fee3a050e41eb86c5823a4
+    digest: 540230c1a6dd4cbde3efe32c51c246d2b0615d82e377223ee608127959e8a9b5
     home: https://www.keycloak.org
     icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -81,4 +84,4 @@ entries:
     urls:
     - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-5.2.7.tgz
     version: 5.2.7
-generated: "2022-01-02T16:52:15.200417079Z"
+generated: "2022-01-02T17:19:26.041544055Z"
