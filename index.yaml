@@ -3,22 +3,22 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-02T17:19:26.04749319Z"
+    created: "2022-01-08T15:54:23.068092349Z"
     dependencies:
     - name: elasticsearch
       repository: ""
-      version: 7.15.0
+      version: 1.0.0
     - name: fluent-bit
       repository: ""
-      version: 0.19.16
+      version: 1.0.0
     - name: kibana
       repository: ""
-      version: 7.15.0
+      version: 1.0.0
     - name: elasticsearch-curator
       repository: ""
-      version: 3.1.0
+      version: 1.0.0
     description: A Helm chart for Kubernetes
-    digest: 5d28044ff6b8476737d935f41b5c2b144a21fc2609c0bfcd31628b0c237ee97f
+    digest: 52c938c4ad2e3616e247f55b10acf519458971c7e7c8e047358da023be74c631
     keywords:
     - efk
     name: charts
@@ -29,19 +29,19 @@ entries:
   istio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-02T17:19:26.057199736Z"
+    created: "2022-01-08T15:54:23.0760196Z"
     dependencies:
     - name: base
       repository: ""
-      version: 1.12.1
+      version: 1.0.0
     - name: istiod
       repository: ""
-      version: 1.12.1
+      version: 1.0.0
     - name: gateway
       repository: ""
-      version: 1.12.1
+      version: 1.0.0
     description: A Helm chart for Kubernetes
-    digest: 6ca5aa156b9c8e65dda8603ed230217c9cc78532521e73d14e9c2a4de927bc89
+    digest: ae7eea16b64568e8e06b3134c34226eb24533335096173c7c20d9225a970759c
     keywords:
     - istio
     name: istio
@@ -54,7 +54,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2022-01-02T17:19:26.074797528Z"
+    created: "2022-01-08T15:54:23.108764711Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -84,4 +84,38 @@ entries:
     urls:
     - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-5.2.7.tgz
     version: 5.2.7
-generated: "2022-01-02T17:19:26.041544055Z"
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 15.1.1
+    created: "2022-01-08T15:54:23.091982803Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    description: Keycloak is a high performance Java-based identity and access management
+      solution. It lets developers add an authentication layer to their applications
+      with minimum effort.
+    digest: 4dcb7e0a40a1960edd23a4120c9a26998453ef1ba64228e52f46519a28e0d32e
+    home: https://www.keycloak.org
+    icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
+    keywords:
+    - keycloak
+    - access-management
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: keycloak
+    sources:
+    - https://github.com/bitnami/bitnami-docker-keycloak
+    - https://github.com/keycloak/keycloak
+    urls:
+    - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-01-08T15:54:23.062491713Z"
