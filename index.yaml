@@ -3,7 +3,7 @@ entries:
   EFK:
   - apiVersion: v2
     appVersion: 7.15.0
-    created: "2022-01-08T18:36:49.014266222Z"
+    created: "2022-01-08T18:41:36.012233167Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -29,7 +29,7 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-08T18:36:49.018608565Z"
+    created: "2022-01-08T18:41:36.01658422Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -55,7 +55,7 @@ entries:
   efk:
   - apiVersion: v2
     appVersion: 7.15.0
-    created: "2022-01-08T18:36:49.024585324Z"
+    created: "2022-01-08T18:41:36.021980786Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -70,7 +70,7 @@ entries:
       repository: ""
       version: 1.0.0
     description: XNXGAMES EFK
-    digest: 219cc6240d6b77f3743f3e8dffb14022941fea3feaf40d0a68eae4a15ffc9ba6
+    digest: 527552e151dcf760029f8d3924739d9fe3498a5e9c7775f3bca5fe0d7c9dbe45
     keywords:
     - efk
     name: efk
@@ -81,7 +81,7 @@ entries:
   istio:
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2022-01-08T18:36:49.03736515Z"
+    created: "2022-01-08T18:41:36.035239548Z"
     dependencies:
     - name: base
       repository: ""
@@ -93,7 +93,7 @@ entries:
       repository: ""
       version: 1.0.0
     description: XNXGAMES Istio
-    digest: f2541f4decabc62bd636a21e852c46798c5b0b1f20b8fb78ce0e4e797167f04f
+    digest: 79a55c94a04a35712c0cd62323cc465e12a5c90361b17a526b00c838de8680bb
     keywords:
     - istio
     name: istio
@@ -103,7 +103,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-08T18:36:49.031216389Z"
+    created: "2022-01-08T18:41:36.028692368Z"
     dependencies:
     - name: base
       repository: ""
@@ -128,7 +128,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2022-01-08T18:36:49.066459836Z"
+    created: "2022-01-08T18:41:36.060614158Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -162,7 +162,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2022-01-08T18:36:49.051047585Z"
+    created: "2022-01-08T18:41:36.047325795Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -174,7 +174,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 10.x.x
     description: XNXGAMES Keycloak
-    digest: f547dc5215d243770b090e28f1e0d2d5bf432798117d161e1a3b1a284b1f0f97
+    digest: 8a3ba9711a24308cd00671e89ae9a475070bbaa9123c1904a75b6ae60881eacc
     home: https://www.keycloak.org
     icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -187,4 +187,4 @@ entries:
     urls:
     - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-08T18:36:49.009761978Z"
+generated: "2022-01-08T18:41:36.006561397Z"
