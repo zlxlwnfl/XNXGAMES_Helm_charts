@@ -1,9 +1,35 @@
 apiVersion: v1
 entries:
+  EFK:
+  - apiVersion: v2
+    appVersion: 7.15.0
+    created: "2022-01-08T16:08:45.071920686Z"
+    dependencies:
+    - name: elasticsearch
+      repository: ""
+      version: 1.0.0
+    - name: fluent-bit
+      repository: ""
+      version: 1.0.0
+    - name: kibana
+      repository: ""
+      version: 1.0.0
+    - name: elasticsearch-curator
+      repository: ""
+      version: 1.0.0
+    description: XNXGAMES EFK
+    digest: 0558bb1d5a3bcb7bf95e246a62e1c2297f92d5fe1ba1f39712d34c4d90b25b43
+    keywords:
+    - efk
+    name: EFK
+    type: application
+    urls:
+    - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/EFK-1.0.0.tgz
+    version: 1.0.0
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-08T15:54:23.068092349Z"
+    created: "2022-01-08T16:08:45.076697639Z"
     dependencies:
     - name: elasticsearch
       repository: ""
@@ -28,8 +54,30 @@ entries:
     version: 0.1.0
   istio:
   - apiVersion: v2
+    appVersion: 1.12.1
+    created: "2022-01-08T16:08:45.090047886Z"
+    dependencies:
+    - name: base
+      repository: ""
+      version: 1.0.0
+    - name: istiod
+      repository: ""
+      version: 1.0.0
+    - name: gateway
+      repository: ""
+      version: 1.0.0
+    description: XNXGAMES Istio
+    digest: b29fc82322b70835d1c3bd2eb9fb74bcf21fb34b57ddb26e0027923122e9fb05
+    keywords:
+    - istio
+    name: istio
+    type: application
+    urls:
+    - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/istio-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-08T15:54:23.0760196Z"
+    created: "2022-01-08T16:08:45.083508714Z"
     dependencies:
     - name: base
       repository: ""
@@ -54,7 +102,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2022-01-08T15:54:23.108764711Z"
+    created: "2022-01-08T16:08:45.115537068Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -88,7 +136,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 15.1.1
-    created: "2022-01-08T15:54:23.091982803Z"
+    created: "2022-01-08T16:08:45.102609325Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -99,18 +147,13 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 10.x.x
-    description: Keycloak is a high performance Java-based identity and access management
-      solution. It lets developers add an authentication layer to their applications
-      with minimum effort.
-    digest: 4dcb7e0a40a1960edd23a4120c9a26998453ef1ba64228e52f46519a28e0d32e
+    description: XNXGAMES Keycloak
+    digest: c0ae9225428ba01a163fe5bf32bced4f8e4d00bb25533ce3dd32a0861295c8ed
     home: https://www.keycloak.org
     icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
     - keycloak
     - access-management
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
     name: keycloak
     sources:
     - https://github.com/bitnami/bitnami-docker-keycloak
@@ -118,4 +161,4 @@ entries:
     urls:
     - https://zlxlwnfl.github.io/XNXGAMES_Helm_charts/keycloak-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-08T15:54:23.062491713Z"
+generated: "2022-01-08T16:08:45.067446437Z"
